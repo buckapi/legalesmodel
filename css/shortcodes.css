@@ -408,6 +408,7 @@ ul.title-shape li:nth-child(2) {
     text-transform: capitalize;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    border-radius: 10px;
 }
 .ttm-btn:not(.btn-inline):before, .ttm-btn:not(.btn-inline):after{
     content: '';
@@ -418,6 +419,7 @@ ul.title-shape li:nth-child(2) {
     left: 0;
     z-index: -1;
     transition: 0.5s ease-in-out;
+    border-radius: 10px;
 }
 .ttm-btn:not(.btn-inline):before{
     right: -50px;
@@ -425,6 +427,7 @@ ul.title-shape li:nth-child(2) {
     border-bottom: 80px solid;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
+    border-radius: 10px;
 }
 .ttm-btn:not(.btn-inline):after{
     left: -50px;
@@ -432,16 +435,19 @@ ul.title-shape li:nth-child(2) {
     border-top: 80px solid;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
+    border-radius: 10px;
 }
 .ttm-btn:not(.btn-inline):hover:before {
     transition: 0.5s ease-in-out;
     -webkit-transform: translateX(-49%);
     transform: translateX(-49%);
+    border-radius: 10px;
 }
 .ttm-btn:not(.btn-inline):hover:after {
     transition: 0.5s ease-in-out;
     -webkit-transform: translateX(49%);
     transform: translateX(49%);
+    border-radius: 10px;
 }
 
 .ttm-btn.ttm-icon-btn-left{ padding-left: 44px; }
@@ -454,6 +460,7 @@ ul.title-shape li:nth-child(2) {
 .ttm-bgcolor-darkgrey .ttm-btn:hover.btn-inline.ttm-btn-color-skincolor{
     background-color: transparent;
     color: #fff;
+    border-radius: 10px;
 }
 
 /** btn-with-icon **/
@@ -466,6 +473,7 @@ ul.title-shape li:nth-child(2) {
     -ms-transform: translate(0,-50%);
     -o-transform: translate(0,-50%);
     transform: translate(0,-50%);
+    border-radius: 10px;
 }
 .ttm-btn.ttm-icon-btn-right{ text-align: right; }
 .ttm-btn.ttm-icon-btn-left { text-align: left; }
@@ -999,7 +1007,7 @@ ul.title-shape li:nth-child(2) {
     height: 107px;
     width: 107px;
     line-height: 107px;
-    background-color: #a73829;
+    background-color: #161d2c;
     border: 0;
 }
 .featured-icon-box.icon-position-left.style4 .featured-desc p,

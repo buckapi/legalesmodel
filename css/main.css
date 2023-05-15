@@ -492,7 +492,7 @@ a{
 .comment-meta .ttm-meta-line i, .comment-reply-link i,
 .ttm-icon_element-fill.ttm-icon_element-color-white,
 .contact-section .ttm-social-links-wrapper li a:hover{
-    color: #b14233;
+    color: #bfb26c;
 }
 
 /** Skin-bg-color **/
@@ -542,7 +542,7 @@ a{
 .contact-section .ttm-social-links-wrapper li a,
 .comment-list a.comment-reply-link:hover,
 #totop.top-visible, .pagination-block .page-numbers.current, .pagination-block .page-numbers:hover{
-    background-color: #b14233; 
+    background-color: #bfb26c; 
 }
 
 
@@ -555,7 +555,7 @@ a{
 .slick_slider.slick-dots-style1 .slick-dots li.slick-active button ,
 .ttm-btn.ttm-btn-style-fill.ttm-btn-color-dark:hover,
 .ttm-btn.ttm-btn-style-border.ttm-btn-color-skincolor:hover{
-    border-color: #b14233;
+    border-color: #bfb26c;
 }
 .ttm-bgcolor-darkgrey .tooltip-top:before, .ttm-bgcolor-darkgrey .tooltip:before, 
 .ttm-bgcolor-grey .tooltip-top:before, .ttm-bgcolor-grey .tooltip:before, 
@@ -565,12 +565,12 @@ a{
 .ttm-btn.ttm-btn-style-border.ttm-btn-color-skincolor:after,
 .site-navigation ul.menu li ul.submenu,
 .cat-links-wrapper .cat-links:before{
-    border-top-color: #b14233;
+    border-top-color: #bfb26c;
 }
 .ttm-bgcolor-darkgrey .tooltip-bottom:before,
 .ttm-btn.ttm-btn-style-fill.ttm-btn-color-dark:before,
 .ttm-btn.ttm-btn-style-border.ttm-btn-color-skincolor:before{
-    border-bottom-color: #b14233;
+    border-bottom-color: #bfb26c;
 }
 
 
@@ -1480,6 +1480,7 @@ ul.widget_contact_wrapper li:last-child i{
     margin-bottom: -65px;
     margin-top: 30px;
     text-align: center;
+    border-radius: 10px;
 }
 
 
