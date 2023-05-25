@@ -866,6 +866,7 @@ ul.title-shape li:nth-child(2) {
     margin-bottom: 30px;
     z-index: 11;
     overflow: hidden;
+    border-radius: 5%;
 }
 .featured-icon-box.style1 .ttm-box-view-overlay {
     position: absolute;
@@ -1546,6 +1547,11 @@ section{ counter-reset: featuredbox-number; }
 }
 .featured-imagebox-practice:hover .featured-content:before{
     height: 74%;
+}
+
+.pbmit-animation-style2.active {
+     transform-origin: 50% 50%;
+    transition: 2s cubic-bezier(0.5, 0.5, 0, 1);
 }
 
 
@@ -2665,3 +2671,16 @@ select#search_category{
     line-height: 26px;
     margin-top: 15px;
 }
+.pbmit-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 150;
+    contain: layout style size;
+    pointer-events: none;
+    will-change: transform;
+    -webkit-transition: opacity 0.3s, color 0.4s;
+    -o-transition: opacity 0.3s, color 0.4s;
+    -moz-transition: opacity 0.3s, color 0.4s;
+    transition: opacity 0.3s, color 0.4s;
+    }
